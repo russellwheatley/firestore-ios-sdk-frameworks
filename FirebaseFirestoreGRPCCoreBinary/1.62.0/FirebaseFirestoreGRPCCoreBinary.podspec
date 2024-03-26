@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.3'
 
   s.vendored_frameworks = [ 
-    "gRPC-Core.xcframework",
+    "grpc.xcframework",
   ]
   #this one
   s.dependency 'FirebaseFirestoreGRPCBoringSSLBinary', firebase_firestore_grpc_version
