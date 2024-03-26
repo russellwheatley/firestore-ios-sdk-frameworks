@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.3'
 
   s.vendored_frameworks = [ 
-    "abseil.xcframework",
+    "absl.xcframework",
   ]
 end
